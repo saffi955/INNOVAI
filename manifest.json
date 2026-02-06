@@ -1,0 +1,15 @@
+{
+  "items": [
+    {"src": "g:/projects/dataset/DATASET.txt", "dst": "collected/DATASET.txt"},
+    {"src": "g:/projects/dataset/dataset.jsonl", "dst": "collected/dataset.jsonl"},
+    {"src": "g:/projects/trainagain/main.py", "dst": "collected/trainagain_main.py"},
+    {"src": "g:/projects/trainagain/agent_prompts.json", "dst": "collected/agent_prompts_trainagain.json"},
+    {"src": "g:/projects/trainagain/training_data.csv", "dst": "collected/training_data.csv"},
+    {"src": "g:/projects/trainagain/utils.py", "dst": "collected/utils.py"},
+    {"src": "g:/projects/trainagain/requirements.txt", "dst": "collected/requirements_trainagain.txt"},
+    {"src": "g:/projects/trainyourself/README.md", "dst": "docs/README_trainyourself.md"},
+    {"src": "g:/projects/trainyourself/main.py", "dst": "collected/trainyourself_main.py"},
+    {"src": "g:/projects/unified_dataset.jsonl", "dst": "collected/unified_dataset.jsonl"},
+    {"src": "g:/projects/unified_dataset_2.jsonl", "dst": "collected/unified_dataset_2.jsonl"}
+  ]
+}
