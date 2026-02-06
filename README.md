@@ -1,4 +1,4 @@
-# Creative Trainer
+# Innov AI
 
 Creative Trainer is a compact toolkit for building a creativity-focused training dataset and running iterative multi-agent training loops to improve a generative model's creative output.
 
@@ -51,14 +51,7 @@ Notes on training
 - `trainer.py` is a placeholder runner adapted from the original multi-agent implementation. To perform real model calls you should implement the `chat()` function using your preferred backend (Ollama, local API, or remote LLMs), and wire `agent_prompts.json` into `PROMPTS_FILE`.
 - The assemble step is purely organizational — it does not alter your data.
 
-Repository metadata
-- Author: saffi955 (email: saffitheprice@gmail.com)
-- Intended remote: https://github.com/saffi955/creative_trainer
-
 Next steps (recommended)
 - Verify `collected/` contains these source artifacts: datasets, `agent_prompts.json`, `utils.py`, and the original `main.py` runner.
 - Implement `chat()` connectors for your chosen model runtime and add training/evaluation scripts.
 - Add a small example `problems.csv` and a unit test demonstrating one end-to-end run.
-
-License
-- Add a license file you prefer (MIT recommended for open sharing).
